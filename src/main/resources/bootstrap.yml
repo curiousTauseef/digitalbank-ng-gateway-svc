@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: gateway-svc
+  profiles:
+    active: default
+  cloud:
+    config:
+      uri: http://localhost:8300
